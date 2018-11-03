@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
-// import "./App.css";
 import Nav from "./components/Nav";
 import ContactInfo from "./components/ContactInfo";
 import User from "./components/User";
+import AddContent from "./components/AddContent";
 
 class App extends Component {
   render() {
@@ -15,6 +15,7 @@ class App extends Component {
         </header>
         <span className="contactInfoClass">
           <ContactInfo />
+          <AddContent />
         </span>
       </div>
     );

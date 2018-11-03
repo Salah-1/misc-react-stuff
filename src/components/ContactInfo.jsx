@@ -41,6 +41,7 @@ class ContactInfo extends Component {
   render() {
     return (
       <div classname="input-group">
+        <h3> Contact info page </h3>
         <p className="text-justify"> name is: {this.state.name} </p>
         <p> email is: {this.state.email} </p>
         <p> phone is: {this.state.phone} </p>
